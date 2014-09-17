@@ -1,0 +1,8 @@
+{
+    "download": {
+        "name": "Download",
+        "href": "download.html",
+        "class": "download-button",
+        "data-icon": "custom"
+    }
+}

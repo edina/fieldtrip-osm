@@ -1,0 +1,21 @@
+{
+    "body": {
+        "section1": {
+            "items": {
+                "item4": {
+                    "div": {"class": "ui-block-d"},
+                    "a": {"class": "gps-track-start", "href": "annotate-gps.html"},
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "Capture GPS Track"
+                    },
+                    "title": "GPS Track"
+                }
+            }
+        },
+        "section2": {
+            "title": "Custom Forms",
+            "items": {}
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "body":{
+        "section1": {
+            "title": "Download to Device",
+            "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"class": "annotate-image-form", "href": "save-map.html"},
+                    "img": {"src": "theme/css/images/downloadmaps.png", "alt": "Save Maps"},
+                    "title": "Maps"
+                }
+            }
+        },
+        "section2":{
+            "title": "Sync (Upload/Download to Dropbox)",
+            "items":{
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "saved-records.html"},
+                    "img": {
+                        "src": "theme/css/images/documents.png",
+                        "alt": "View Records"
+                    },
+                    "title": "Records"
+                },
+                "item2": {
+                    "div": {
+                        "class": "ui-block-b sync-upload-button sync-show",
+                        "style": "display: none;"
+                    },
+                    "a": {
+                        "class": "download-upload-records",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "plugins/sync/css/images/uploadrecords-main.png",
+                        "alt": "Upload Records"
+                    },
+                    "title": "Upload Records"
+                },
+                "item3": {
+                    "div": {
+                        "class": "ui-block-c sync-download-button sync-show",
+                        "style": "display: none;"
+                    },
+                    "a": {
+                        "class": "annotate-text-form",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "plugins/sync/css/images/download-editors.png",
+                        "alt": "Download Editors"
+                    },
+                    "title": "Download Forms"
+                }
+            }
+        }
+    }
+}

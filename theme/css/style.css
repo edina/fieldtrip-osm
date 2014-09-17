@@ -1,0 +1,111 @@
+/********* Non map page *********/
+
+.non-map-body{
+    position: relative;
+    background-image: linear-gradient(top, #62738c, #294062);
+    background-image: url("images/home-background.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62738c), color-stop(100%, #294062));
+    background-image: url("images/home-background.png"), -webkit-linear-gradient(top, #62738c, #294062);
+    background-image: url("images/home-background.png"), -moz-linear-gradient(top, #62738c, #294062);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+
+
+/********* dialog *********/
+
+.ui-dialog .ui-content {
+    background: #3e5371;
+    color: white;
+}
+
+.download-button:after{
+    background: url("../css/images/download.png") 50% 50% no-repeat;
+}
+
+
+/********* map searching *********/
+
+#map-search-popup .ui-btn-up-a {
+    background: white;
+    border: none;
+    text-shadow: none;
+}
+
+#map-search-popup .ui-btn-up-a:visited,
+#map-search-popup .ui-btn-up-a a.ui-link-inherit {
+    color: #2C3F62;
+}
+
+#map-search-spinner{
+    position: relative;
+    float: right;
+    top: -3.4em;
+    right: 0.3em;
+}
+
+#map-search-spinner img{
+    height: 2.5em;
+    width: 2.5em;
+}
+
+#map-search-popup ui{
+    max-height: 200;
+}
+
+
+/********* Help *************/
+
+#help-div .ui-btn{
+    top: 2px;
+    width: 6em;
+    height: 80%;
+}
+
+.help-block{
+    float: right;
+    margin-right: 30px !important;
+}
+
+.help-content{
+    padding: 10px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.help-content img{
+    max-width: 100%;
+    padding: 5px;
+}
+
+.help-content img:active{
+    box-shadow: none !important;
+}
+
+.help-content figcaption{
+    font-style: bolder;
+    font-weight: bold;
+}
+
+.help-content figure{
+    text-align: center;
+}
+
+/********* Records Page *************/
+#saved-records-page-header .ui-block-c{
+    width: 8em;
+}
+
+#settings-page h2,
+#annotate-preview-page h2,
+#saved-records-page-header h2{
+    background: none !important;
+    color: white;
+}
+
+#settings-page .content-header,
+#annotate-preview-page .content-header,
+#saved-records-page .content-header{
+    border-top-width: 0px;
+    background: #2c3f62;
+}

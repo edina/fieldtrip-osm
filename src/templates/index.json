@@ -1,0 +1,99 @@
+{
+    "body": {
+        "section1": {
+            "items": {
+                "item2": {
+                    "div": {"class": "ui-block-b"},
+                    "a": {"href": "saved-maps.html"},
+                    "img": {"src": "css/images/saved.png", "alt": "Save Map"},
+                    "title": "Saved"
+                },
+                "item3": {
+                    "div": {"class": "ui-block-c help-block"},
+                    "a": {"href": "theme/help/contents.html"},
+                    "img": {
+                        "src": "css/images/help.png",
+                        "alt": "Help Section"
+                    },
+                    "title": "Help"
+                }
+            }
+        },
+        "section2": {
+            "items": {
+                "item4": {
+                    "div": {"class": "ui-block-d"},
+                    "a": {"class": "gps-track-start", "href": "annotate-gps.html"},
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "Capture GPS Track"
+                    },
+                    "title": "GPS Track"
+                }
+            }
+        },
+        "section3": {
+            "title": "Download and Sync",
+            "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "save-map.html"},
+                    "img": {
+                        "src": "theme/css/images/downloadmaps.png",
+                        "alt": "Save Maps"
+                    },
+                    "title": "Maps"
+                },
+                "item2": {
+                    "div": {"class": "ui-block-b"},
+                    "a": {"href": "saved-records.html"},
+                    "img": {
+                        "src": "css/images/documents.png",
+                        "alt": "Saved Records"
+                    },
+                    "title": "Records"
+                },
+                "item3": {
+                    "div": {
+                        "class": "ui-block-c sync-login",
+                        "id": "home-content-login"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/login-large.png",
+                        "alt": "Login"
+                    },
+                    "title": "Login"
+                },
+                "item4": {
+                    "div": {
+                        "id": "home-content-upload",
+                        "class": "ui-block-d sync-upload-button sync-show",
+                        "style": "display:none;"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/uploadrecords-main.png",
+                        "alt": "Upload Records"
+                    },
+                    "title": "Upload Records"
+                },
+                "item5": {
+                    "div": {
+                        "class": "ui-block-e sync-download-button sync-show",
+                        "style": "display: none;"
+                    },
+                    "a": {
+                        "class": "home-content-download-forms",
+                        "href": "#"
+                    },
+                    "img": {
+                        "src": "plugins/sync/css/images/download-editors.png",
+                        "alt": "Download Editors"
+                    },
+                    "title": "Download Forms"
+                }
+            }
+        }
+    }
+}
