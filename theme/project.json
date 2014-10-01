@@ -1,7 +1,7 @@
 {
     "versions":{
         "core": "master",
-        "project": "0.0.1"
+        "project": "0.0.2"
     },
     "plugins":{
         "cordova": [
