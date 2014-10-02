@@ -14,7 +14,7 @@
             "org.apache.cordova.geolocation@0.3.10",
             "org.apache.cordova.inappbrowser@0.5.2",
             "org.apache.cordova.media@0.2.13",
-            "org.apache.cordova.media-capture@0.3.3",
+            "https://github.com/edina/spatial-memories-cordova-plugin-media-capture#r0.3.3",
             "org.apache.cordova.plugin.softkeyboard@1.0.3",
             "org.apache.cordova.device-orientation@0.3.9",
             "https://github.com/edina/cordova-plugin-activitieslist#0.0.1"
