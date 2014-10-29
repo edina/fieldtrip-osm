@@ -52,6 +52,21 @@
                         "alt": "Download Editors"
                     },
                     "title": "Download Forms"
+                },
+                "item4": {
+                    "div": {
+                        "class": "ui-block-c sync-show sync-download-layers-button",
+                        "style": "display: none;"
+                    },
+                    "a": {
+                        "class": "annotate-text-form",
+                        "href": "saved-layers.html"
+                    },
+                    "img": {
+                        "src": "plugins/overlays/css/images/maplayers.png",
+                        "alt": "Download Overlays"
+                    },
+                    "title": "Download Overlays"
                 }
             }
         }
