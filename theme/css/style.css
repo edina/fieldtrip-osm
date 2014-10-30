@@ -128,7 +128,7 @@
 }
 
 #saved-layers-list li:not(.ui-li-divider) a,
-#map-layers-list li:not(.ui-li-divider) a{
+#map-page-layers-list li:not(.ui-li-divider) a{
     color: #2c3f62;
     background: white !important;
     text-shadow: 0 0 0 !important;
