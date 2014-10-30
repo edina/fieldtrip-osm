@@ -98,14 +98,38 @@
 
 #settings-page h2,
 #annotate-preview-page h2,
-#saved-records-page-header h2{
+#saved-records-page-header h2,
+#saved-layers-page-header h2{
     background: none !important;
     color: white;
 }
 
 #settings-page .content-header,
 #annotate-preview-page .content-header,
-#saved-records-page .content-header{
+#saved-records-page .content-header,
+#saved-layers-page .content-header{
     border-top-width: 0px;
     background: #2c3f62;
+}
+
+/********* Map Overlays *************/
+#saved-layers-page-header h2{
+    background: #2c3f62 !important;
+    margin: 0;
+}
+
+#saved-layers-page-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    margin: 0;
+    padding: 0 0 1em 0;
+    background: #2c3f62 !important;
+}
+
+#saved-layers-list li:not(.ui-li-divider) a,
+#map-layers-list li:not(.ui-li-divider) a{
+    color: #2c3f62;
+    background: white !important;
+    text-shadow: 0 0 0 !important;
 }
