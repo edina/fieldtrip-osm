@@ -92,6 +92,10 @@
     text-align: center;
 }
 
+#help-internals > span{
+    float: right;
+}
+
 /********* Records Page *************/
 #saved-records-page-header .ui-block-c{
     width: 8em;
