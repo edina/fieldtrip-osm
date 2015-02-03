@@ -133,3 +133,17 @@
     background: white !important;
     text-shadow: 0 0 0 !important;
 }
+
+/****Hack for the bug with the menu****/
+/* Button down */
+#home-page .ui-page-theme-a .ui-btn:active,
+html .ui-bar-a .ui-btn:active,
+html .ui-body-a .ui-btn:active,
+html body .ui-group-theme-a .ui-btn:active,
+html head + body .ui-btn.ui-btn-a:active {
+    background-color: #2c3f62 /*{a-bup-background-color}*/;
+    border-color: #3d5889 /*{a-bup-border}*/;
+    color: #ffffff /*{a-bup-color}*/;
+    text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #444444 /*{a-bup-shadow-color}*/;
+}
+#home-page .menu a:active, img:active{ box-shadow: 0px 0px 0px !important;}
