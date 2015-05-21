@@ -1,6 +1,6 @@
 {
     "versions":{
-        "core": "master",
+        "core": "ftosm-1.5",
         "project": "0.3.0"
     },
     "plugins":{
@@ -15,18 +15,18 @@
             "org.apache.cordova.inappbrowser@0.5.2",
             "org.apache.cordova.media@0.2.13",
             "org.apache.cordova.network-information@0.2.13",
-            "https://github.com/edina/spatial-memories-cordova-plugin-media-capture",
             "org.apache.cordova.plugin.softkeyboard@1.0.3",
             "org.apache.cordova.device-orientation@0.3.9",
+            "https://github.com/edina/spatial-memories-cordova-plugin-media-capture#edina-0.3.2.1",
             "https://github.com/edina/cordova-plugin-activitieslist#0.0.1",
-            "https://github.com/edina/Cordova-SQLitePlugin"
+            "https://github.com/edina/Cordova-SQLitePlugin#edina-0.3.2"
         ],
         "fieldtrip": {
-            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
-            "map-search": "git@github.com:edina/fieldtrip-map-search.git",
-            "offline-maps": "git@github.com:edina/fieldtrip-offline-maps.git",
-            "overlays": "git@github.com:edina/fieldtrip-overlays.git",
-            "sync": "git@github.com:edina/fieldtrip-sync.git"
+            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git#0.7.0",
+            "map-search": "git@github.com:edina/fieldtrip-map-search.git#0.5.0",
+            "offline-maps": "git@github.com:edina/fieldtrip-offline-maps.git#0.5.0",
+            "overlays": "git@github.com:edina/fieldtrip-overlays.git#0.3.0",
+            "sync": "git@github.com:edina/fieldtrip-sync.git#0.7.0"
         }
     }
 }
