@@ -1,6 +1,6 @@
 {
     "versions":{
-        "core": "ftosm-1.5",
+        "core": "ftosm-1.0",
         "project": "0.3.0"
     },
     "plugins":{
