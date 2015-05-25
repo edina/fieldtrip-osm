@@ -19,7 +19,7 @@
             "org.apache.cordova.device-orientation@0.3.9",
             "https://github.com/edina/spatial-memories-cordova-plugin-media-capture#edina-0.3.2.1",
             "https://github.com/edina/cordova-plugin-activitieslist#0.0.1",
-            "https://github.com/edina/Cordova-SQLitePlugin#edina-0.3.2"
+            "https://github.com/edina/Cordova-SQLitePlugin#edina-1.0.0"
         ],
         "fieldtrip": {
             "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git#0.7.0",
